@@ -86,9 +86,10 @@ img {
 }
 
 .delete-btn {
+    display: block;
     font-size: 1.5rem;
     height: fit-content;
-    margin: auto;
+    margin: auto .5rem auto .25rem;
 }
 
 header {
