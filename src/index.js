@@ -3,7 +3,7 @@ const memes = [
   {
     topLine: "such clever",
     bottomLine: "much funny",
-    image: "https://images.app.goo.gl/nhtTyYTQWLc3pHx29",
+    image: "https://picsum.photos/200",
   },
   {
     topLine: "such clever",
