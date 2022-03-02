@@ -3,7 +3,7 @@ const memes = [
   {
     topLine: "such clever",
     bottomLine: "much funny",
-    image: "https://picsum.photos/200",
+    image: "https://images.app.goo.gl/nhtTyYTQWLc3pHx29",
   },
   {
     topLine: "such clever",
@@ -26,7 +26,7 @@ function showMemes() {
     let meme = memes[i];
     let top = `<div class="text" id="topLine">${meme.topLine}</div>`;
     let bottom = `<div class="text" id="bottomLine">${meme.bottomLine}</div>`;
-    let image = `<img src="${meme.image}" class="memeImage"></img>`;
+    let image = `<img src="${meme.image}" class="memeImage" alt="error loading image.">`;
     let deleteBtn = `<button class="delete-btn" id="delete-${i}">🗑️</button>`;
     html += `
       <div class="meme" id="meme-${i}">

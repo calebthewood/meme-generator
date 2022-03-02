@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(helmet());
 
-app.use(express.static(path.join(__dirname, '/')));
+app.use(express.static(path.join(__dirname, 'src')));
 // default URL for website
 
 app.use('/', function(req,res){
